@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import '../styles/CharacterList.css';
 
-const CharacterList = () => {
+const BrowseCharacters = () => {
     const [characters, setHeroes] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -45,4 +45,4 @@ const CharacterList = () => {
     );
 };
 
-export default CharacterList;
+export default BrowseCharacters;

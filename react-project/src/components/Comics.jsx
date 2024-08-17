@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const ComicsList = () => {
+const Comics = () => {
     const [comics, setComics] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -44,4 +44,4 @@ const ComicsList = () => {
     );
 };
 
-export default ComicsList;
+export default Comics;
